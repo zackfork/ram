@@ -1,0 +1,15 @@
+使用git命令
+
+
+* 初始化本地一个git仓库
+$ git init
+Initialized empty Git repository in E:/User/desktop/ibigbig/logs/.git/
+
+初始化后，这个路径的状态是master：/e/User/desktop/ibigbig/logs (master)
+
+
+
+* 添加remote origin
+$ git remote add origin http://github.com/zackvol/logs.git
+$ git config --global user.email "kissyf@yeah.net"
+$ git config --global --replace-all user.name "zackvol"
